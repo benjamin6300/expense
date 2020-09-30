@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			background-color: orange;
+			opacity: 0.5;
+		}
+		hr{
+			width: 50%
+		}
+		input{
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>EXPENSE TRACKER</h1>
+	<hr>
+	<h2>Total Budget : <span id="totalBudget">0</span></h2><br>
+	<h2>Current Budget : <span id="currentBudget">0</span> </h2><hr>
+
+	<h2>Add Money To Budget</h2>
+	<input type="number" name="" id="money">
+	<button onclick="addMoney()">Add Money</button><hr>
+
+	<h1>Add Expenses</h1>
+	<input type="text" name="" id="item">
+	<input type="number" name="" id="amount">
+	<button onclick="addEpense()">Add Expense</button>
+
+
+	<h1>Add Expense</h1>
+	<div id="addExpense"></div>
+
+<script type="text/javascript" src="expense.js"></script>
+
+</body>
+</html>
